@@ -1,0 +1,1 @@
+SPW was a collaboration between George Brown College (GBC), Working for Change (WfC) and the Toronto Drop-In Network (TDIN), funded by The Natural Sciences and Engineering Research Council of Canada (NSERC)’s College and Community Social Innovation Fund (CCSIF) grant. Our work was supported by the Centre for Community-Based Research (CCBR).

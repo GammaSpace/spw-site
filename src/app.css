@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-bodyBg;
+}
+
+h2 {
+  @apply text-2xl mb-8 font-bold;
+}
+
+p {
+  @apply mb-8 text-lg;
+}
+
+a {
+  @apply underline;
+}
+
+.quote {
+  @apply text-mazeGreen;
+}
+
+.logo {
+  @apply w-1/2 md:w-1/4 mb-4 pr-8;
+}
