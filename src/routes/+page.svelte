@@ -1,11 +1,8 @@
 <script>
   import SvelteMarkdown from 'svelte-markdown';
-  import { marked, Renderer } from 'marked';
-  import { onMount } from 'svelte';
 
   /** @type {import('./$types').PageData} */
 	export let data;
-  const defaultRenderer = new Renderer();
 </script> 
 
 <div class="-ml-8 -mt-12 w-[calc(100%+64px)] md:-ml-12 md:-mt-24 md:w-[calc(100%+96px)] xl:-mt-32">
