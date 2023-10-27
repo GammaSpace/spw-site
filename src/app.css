@@ -10,12 +10,24 @@ h2 {
   @apply text-2xl mb-8 font-bold;
 }
 
+h3 {
+  @apply text-[1.4rem] leading-8 mb-8 font-bold;
+}
+
 p {
   @apply mb-8 text-lg;
 }
 
 a {
-  @apply underline;
+  @apply font-bold underline;
+}
+
+ul {
+
+}
+
+ul li {
+  @apply list-disc list-inside mb-4 text-lg;
 }
 
 .quote {
@@ -24,4 +36,8 @@ a {
 
 .logo {
   @apply w-1/2 md:w-1/4 mb-4 pr-8;
+}
+
+.download-button {
+  text-shadow: 2px 2px 2px #666;
 }

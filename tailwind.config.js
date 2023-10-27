@@ -5,7 +5,8 @@ export default {
     extend: {
       colors: {
         bodyBg: "#f6f2ec",
-        mazeGreen: "#3ca14b"
+        mazeGreen: "#3ca14b",
+        boxYellow: "#fdfec8"
       }
     },
   },

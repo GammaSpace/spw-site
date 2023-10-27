@@ -1,4 +1,4 @@
-**Supporting Peer Work (SPW) was a community-guided participatory action research project that studied how so-called “low barrier” social service agencies treat people with lived/living expertise — also known as “peers.”**
+### Supporting Peer Work (SPW) was a community-guided participatory action research project that studied how so-called “low barrier” social service agencies treat people with lived/living expertise — also known as “peers.”
 
 After two years of intensive research, we found that people in peer positions do powerful and transformative work that most agencies misunderstand. Although many organizations say they value lived/living experience, they build mazes and set traps for peers, forcing them to follow policies and practices that undermine their unique knowledge and skills.
 

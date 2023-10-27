@@ -1,4 +1,5 @@
 <script>
+  import { goto } from '$app/navigation';
   import SvelteMarkdown from 'svelte-markdown';
 
   /** @type {import('./$types').PageData} */
@@ -13,6 +14,15 @@
     <SvelteMarkdown source={data.intro}/>
   </div>
   <div class="w-full md:w-2/5 quote">
+    <div class="-mt-4 md:-mt-14 mb-6 ml-[45%] md:ml-0">
+      <img class="w-[30px] h-auto" src="/img/arrow_lil_down.png"/>
+    </div>
+    <div class="bg-boxYellow w-full p-8 mb-8 md:mb-20">
+      <button on:click={()=>{goto("/report")}} class="download-button bg-mazeGreen rounded-md w-full py-2 px-2 lg:px-4 mx-auto text-lg font-bold text-white">Download the Report</button>
+    </div>
+    <div class="hidden md:block ml-[35%] md:-ml-8 mb-4">
+      <img class="w-[100px] h-auto" src="/img/arrow_zig.png"/>
+    </div>
     <SvelteMarkdown source={data.quote}/>
   </div>
   <div class="w-full"><img class="mx-auto w-[50px] md:w-[100px]" src="img/spacer.png"></div>
