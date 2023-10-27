@@ -23,15 +23,19 @@ a {
 }
 
 ul {
-
+  @apply mb-8;
 }
 
 ul li {
-  @apply list-disc list-inside mb-4 text-lg;
+  @apply list-disc list-inside mb-2 text-lg;
 }
 
-.quote {
+.quote, .big-quote {
   @apply text-mazeGreen;
+}
+
+.big-quote p {
+  @apply text-xl
 }
 
 .logo {

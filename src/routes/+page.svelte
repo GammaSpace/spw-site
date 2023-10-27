@@ -20,12 +20,18 @@
     <div class="bg-boxYellow w-full p-8 mb-8 md:mb-20">
       <button on:click={()=>{goto("/report")}} class="download-button bg-mazeGreen rounded-md w-full py-2 px-2 lg:px-4 mx-auto text-lg font-bold text-white">Download the Report</button>
     </div>
-    <div class="hidden md:block ml-[35%] md:-ml-8 mb-4">
+    <div class="hidden md:block ml-[35%] md:pt-6 md:-ml-8 mb-4">
       <img class="w-[100px] h-auto" src="/img/arrow_zig.png"/>
     </div>
     <SvelteMarkdown source={data.quote}/>
   </div>
   <div class="w-full"><img class="mx-auto w-[50px] md:w-[100px]" src="img/spacer.png"></div>
+</div>
+<div class="my-8 flex flex-wrap pt-4">
+  <h2>Treaty Responsibilities</h2>
+  <div class="w-full border-4 border-mazeGreen rounded-md px-4 pt-4">
+    <SvelteMarkdown source={data.land}/>
+  </div>
 </div>
 <div class="mt-8 flex flex-wrap pt-4">
   <div class="w-full">
@@ -50,12 +56,6 @@
     </div>
     <div class="logo">
       <img class="w-full" src="/img/logos/logo_nserc.jpg"/>
-    </div>
-  </div>
-  <div class="my-8 flex flex-wrap pt-4">
-    <h2>Land Acknowledgements</h2>
-    <div class="w-full border-4 border-mazeGreen rounded-md px-4 pt-4">
-      <SvelteMarkdown source={data.land}/>
     </div>
   </div>
 </div>

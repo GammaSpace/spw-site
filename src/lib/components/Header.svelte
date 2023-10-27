@@ -5,7 +5,7 @@
   const menu = [
     ["Home","/"],
     ["Report","/report"],
-    ["Process","/process"],
+    ["Steering Committee","/steering-committee"],
     ["Questions for Agencies","/questions-for-agencies"],
     ["Glossary","/glossary"],
   ]

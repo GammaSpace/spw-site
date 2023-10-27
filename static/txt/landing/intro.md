@@ -1,5 +1,18 @@
-### Supporting Peer Work (SPW) was a community-guided participatory action research project that studied how so-called “low barrier” social service agencies treat people with lived/living expertise — also known as “peers.”
+### Supporting Peer Work (SPW) is a resource site for the community-guided participatory action research project of the same name, which did our research in what is now called [Toronto, Canada](/#treaty) from 2020-2023. 
 
-After two years of intensive research, we found that people in peer positions do powerful and transformative work that most agencies misunderstand. Although many organizations say they value lived/living experience, they build mazes and set traps for peers, forcing them to follow policies and practices that undermine their unique knowledge and skills.
+This project was steered by a committee of [people with lived/living expertise](/steering-committee) - also known as “[peer workers](/glossary)". We offer our [research reports](/report) and [tools for organizational change](/questions-for-agencies) free to view, download and share widely.
 
-SPW has produced several research reports and tools for organizational change that shine light on the new and necessary paths being forged by people working in their own communities – and the importance of trusting, respecting, and resourcing peer work on its own terms.
+The Supporting Peer Work project documented how **“low barrier” social service agencies** treat peer workers.
+
+**We found that most agencies:**
+
+- Falsely believe they value community knowledge and lived/living expertise.
+- Misunderstand the powerful, transformative work of peers. 
+- Practically force peer workers to follow policies and practices that undermine their unique  skills and contributions. 
+
+**And that workers with lived/living expertise:**
+
+- Are forging new and vital paths for community empowerment.
+- Should be trusted, respected and resourced on their own terms. 
+
+We’ve posted select research highlights on this site for quick reference, and we encourage further reading, sharing, dialogue and citing of the full findings. Please read our [reports](/report), learn about our [Steering Committee](/steering-committee) and reach out to connect with us about our ongoing work to support community empowerment and social change.
