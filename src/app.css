@@ -45,3 +45,11 @@ ul li {
 .download-button {
   text-shadow: 2px 2px 2px #666;
 }
+
+.agency-questions ul li {
+  @apply list-none list-outside mb-2 text-lg;
+}
+
+#questions-toc p {
+  @apply text-mazeGreen mb-2;
+}

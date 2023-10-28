@@ -1,0 +1,1 @@
+**Maria Scotton (they/them)** is a Harm Reduction Specialist with Christie Ossington Neighbourhood Centre (CONC) with 10 years of experience in social services. They advocate for peers in the social service sector and have developed and delivered Peer trainings for various organizations in Toronto. 
