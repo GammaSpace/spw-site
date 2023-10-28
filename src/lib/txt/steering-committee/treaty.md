@@ -10,9 +10,9 @@ Later in our process, we tried to connect our understanding of our treaty respon
 
 Throughout our whole process, we committed to treating each other in ways that are inspired by our understanding of our treaty responsibilities.  
 
-Below are some of the resources we used in our reflections. To learn more about our process, reach out to us on social media.
-
 ## Resources
+
+Below are some of the resources we used in our reflections. To learn more about our process, reach out to us on social media.
 
 ### Videos
 
