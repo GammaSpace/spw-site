@@ -56,10 +56,18 @@
 <svelte:window bind:innerWidth={windowWidth}/>
 
 {#if glossaryContent != ""}
-  <div class="mt-8 flex flex-wrap flex-col-reverse md:flex-row pt-4">
+  <div class="mt-8 flex flex-wrap pt-4">
     <div class="w-full md:w-3/5 md:pr-12 xl:pr-16">
       <SvelteMarkdown source={intro}/>
-      <h2>Glossary</h2>
+    </div>
+    <div class="md:w-2/5">
+      <div class="h-full my-auto">
+        <img class="w-[90%] max-w-[350px] mx-auto" src="/img/maze_part.png"/>
+      </div>
+    </div>
+  </div>
+  <div class="mt-8 flex flex-wrap flex-col-reverse md:flex-row pt-4">  
+    <div class="w-full md:w-3/5 md:pr-12 xl:pr-16">
       {@html glossaryContent}
     </div>
     <div class="glossary-toc w-full md:w-2/5">

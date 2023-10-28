@@ -56,7 +56,6 @@
       </div>
     </div>
   </div>
-  <h2>Questions for Agencies</h2>
   <div class="my-8 flex flex-wrap flex-col-reverse md:flex-row pt-4">
     <div class="agency-questions w-full md:w-3/5 md:pr-12 xl:pr-16">
       {@html questionContent}

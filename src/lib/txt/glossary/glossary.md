@@ -1,5 +1,3 @@
-<span id="#ableism"></span>
-
 **Ableism:** A system of social power that both creates the social category of disability and discriminates against disabled people. Ableism can’t be separated out from other forms of oppression.
 
 **Capitalism:** An economic and cultural system in which a small number of individuals and/or corporations own and control the land, natural resources, and means of production and use them to gain profit and power. Under capitalism, poverty and wealth are tied together, meaning that some people are rich because others are poor.
