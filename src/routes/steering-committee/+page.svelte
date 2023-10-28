@@ -1,6 +1,7 @@
 <script>
   import SvelteMarkdown from 'svelte-markdown';
   import intro from '$lib/txt/steering-committee/intro.md?raw';
+  import treaty from '$lib/txt/steering-committee/treaty.md?raw';
   import dawnmarie from '$lib/txt/steering-committee/bios/dawnmarie.md?raw';
   import griffin from '$lib/txt/steering-committee/bios/griffin.md?raw';
   import julia from '$lib/txt/steering-committee/bios/julia.md?raw';
@@ -35,7 +36,15 @@
   </div>
 </div>
 <div class="my-8 flex flex-wrap pt-4">
-  {#each bios as bio}
-    <SvelteMarkdown source={bio}/>
-  {/each}
+  <div class="w-full md:w-4/5 md:pr-12 xl:pr-16">
+    <h2>Steering Committee Bios</h2>
+    {#each bios as bio}
+      <SvelteMarkdown source={bio}/>
+    {/each}
+  </div>
+</div>
+<div class="my-8 flex flex-wrap pt-4">
+  <div class="w-full md:w-4/5 md:pr-12 xl:pr-16">
+    <SvelteMarkdown source={treaty}/>
+  </div>
 </div>

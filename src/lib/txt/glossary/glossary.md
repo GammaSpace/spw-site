@@ -32,6 +32,8 @@
 
 **Treaty:** A binding agreement between nations and communities that sets rules and guidelines for interaction. As Leanne Betasamosake Simpson (2008) writes, “it has long been known that Indigenous nations had their own processes for making and maintaining peaceful diplomatic relationships…grounded in the worldviews, language, knowledge system and political cultures of the nations involved” (p. 29).
 
+**Treaty 13:** The legal treaty agreement between the Mississaugas of the Credit River First Nation and the settler-colonial Canadian government that acknowledges Mississauga rights to the land that is now called Toronto. Negotiations for Treaty 13 began in the 1780s and were only resolved in 2010. In the interim, the British Crown and, later, the Canadian government violated the sovereignty and self-determination of the Mississaugas and violated the terms of their own agreements.  
+
 **Two Row Wampum:** A treaty between the Haudenosaunee Confederacy and Dutch colonizers made in 1613 which directs colonizers, settlers, and all non-Indigenous peoples who want to live on Haudenosaunee territory to respect Indigenous self-determination, and practice non-interference with Indigenous culture and forms of governance. Like the Dish with One Spoon, this treaty can only be really understood by learning from Haudenosaunee thinkers.
 
 **White supremacy:** A social, economic, cultural, and political system that empowers white people to benefit from the marginalization, exploitation, suffering, and even death of Black people, Indigenous people, and other racialized people. White supremacy was central to the colonial settlement of nation-states such as Canada and continues to shape daily life in Canada in an active way.

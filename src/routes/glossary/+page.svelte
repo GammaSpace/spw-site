@@ -2,7 +2,9 @@
   import { page } from '$app/stores';
   import { onMount } from 'svelte';
   import { marked } from 'marked';
+  import intro from '$lib/txt/glossary/intro.md?raw';
   import glossary from '$lib/txt/glossary/glossary.md?raw';
+  import SvelteMarkdown from 'svelte-markdown';
 
   let glossaryContent:string = "";
   let toCArray: Array<Array<string>> = [];
@@ -56,6 +58,7 @@
 {#if glossaryContent != ""}
   <div class="mt-8 flex flex-wrap flex-col-reverse md:flex-row pt-4">
     <div class="w-full md:w-3/5 md:pr-12 xl:pr-16">
+      <SvelteMarkdown source={intro}/>
       <h2>Glossary</h2>
       {@html glossaryContent}
     </div>

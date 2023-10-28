@@ -5,7 +5,6 @@
   import quote from '$lib/txt/landing/quote.md?raw';
   import funders from '$lib/txt/landing/funders.md?raw';
   import land from '$lib/txt/landing/land.md?raw';
-  import credits from '$lib/txt/landing/credits.md?raw';
 </script> 
 
 <div class="-ml-8 -mt-12 w-[calc(100%+64px)] md:-ml-12 md:-mt-24 md:w-[calc(100%+96px)] xl:-mt-32">
