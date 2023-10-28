@@ -1,4 +1,4 @@
-### Supporting Peer Work (SPW) is a resource site for the community-guided participatory action research project of the same name, which did our research in what is now called [Toronto, Canada](/#treaty) from 2020-2023. 
+### Supporting Peer Work (SPW) is a resource site for the community-guided participatory action research project of the same name, which did our research in what is now called Toronto, Canada from 2020-2023. 
 
 This project was steered by a committee of [people with lived/living expertise](/glossary#lived-living-expertise) - also known as “[peer workers](/glossary#peer-worker)". We offer our [research reports](/report) and [tools for organizational change](/questions-for-agencies) free to view, download and share widely.
 
