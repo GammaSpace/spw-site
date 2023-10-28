@@ -9,7 +9,7 @@
 
   const renderer = {
     strong(text:string) {
-      let id:string = text.toLowerCase().replaceAll(/[ \/]/g,'-').replaceAll(/[\:\"]/g,'');
+      let id:string = text.toLowerCase().replaceAll(/[ \/]/g,'-').replaceAll(/[\:\"\“\”]/g,'');
       let linkText = text.replace(':','');
       toCArray.push( [id, linkText] );
       return `<b id=${id}>${text}</b>`;
@@ -54,7 +54,7 @@
 <svelte:window bind:innerWidth={windowWidth}/>
 
 {#if glossaryContent != ""}
-  <div class="mt-8 flex flex-wrap pt-4">
+  <div class="mt-8 flex flex-wrap flex-col-reverse md:flex-row pt-4">
     <div class="w-full md:w-3/5 md:pr-12 xl:pr-16">
       <h2>Glossary</h2>
       {@html glossaryContent}
