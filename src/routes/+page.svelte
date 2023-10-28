@@ -1,9 +1,11 @@
 <script>
   import { goto } from '$app/navigation';
   import SvelteMarkdown from 'svelte-markdown';
-
-  /** @type {import('./$types').PageData} */
-	export let data;
+  import intro from '$lib/txt/landing/intro.md?raw';
+  import quote from '$lib/txt/landing/quote.md?raw';
+  import funders from '$lib/txt/landing/funders.md?raw';
+  import land from '$lib/txt/landing/land.md?raw';
+  import credits from '$lib/txt/landing/credits.md?raw';
 </script> 
 
 <div class="-ml-8 -mt-12 w-[calc(100%+64px)] md:-ml-12 md:-mt-24 md:w-[calc(100%+96px)] xl:-mt-32">
@@ -11,7 +13,7 @@
 </div>
 <div class="mt-8 flex flex-wrap pt-4">
   <div class="w-full md:w-3/5 md:pr-12 xl:pr-16">
-    <SvelteMarkdown source={data.intro}/>
+    <SvelteMarkdown source={intro}/>
   </div>
   <div class="w-full md:w-2/5 quote">
     <div class="-mt-4 md:-mt-14 mb-6 ml-[45%] md:ml-0">
@@ -23,20 +25,20 @@
     <div class="hidden md:block ml-[35%] md:pt-6 md:-ml-8 mb-4">
       <img class="w-[100px] h-auto" src="/img/arrow_zig.png"/>
     </div>
-    <SvelteMarkdown source={data.quote}/>
+    <SvelteMarkdown source={quote}/>
   </div>
   <div class="w-full"><img class="mx-auto w-[50px] md:w-[100px]" src="img/spacer.png"></div>
 </div>
 <div class="my-8 flex flex-wrap pt-4">
   <h2>Treaty Responsibilities</h2>
   <div class="w-full border-4 border-mazeGreen rounded-md px-4 pt-4">
-    <SvelteMarkdown source={data.land}/>
+    <SvelteMarkdown source={land}/>
   </div>
 </div>
 <div class="mt-8 flex flex-wrap pt-4">
   <div class="w-full">
     <h2>Funders & Collaborators</h2>
-    <SvelteMarkdown source={data.funders}/>
+    <SvelteMarkdown source={funders}/>
   </div>
   <div class="w-full flex flex-wrap justify-center items-center">
     <div class="logo">

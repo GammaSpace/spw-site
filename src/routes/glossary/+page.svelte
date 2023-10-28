@@ -1,11 +1,8 @@
 <script lang="ts">
   import { page } from '$app/stores';
   import { onMount } from 'svelte';
-  import SvelteMarkdown from 'svelte-markdown';
   import { marked } from 'marked';
-
-  /** @type {import('./$types').PageData} */
-	export let data:object;
+  import glossary from '$lib/txt/glossary/glossary.md?raw';
 
   let glossaryContent:string = "";
   let toCArray: Array<Array<string>> = [];
@@ -22,7 +19,7 @@
   marked.use({ renderer });
 
   onMount(()=>{
-    glossaryContent = marked.parse(data.glossary);
+    glossaryContent = marked.parse(glossary);
   })
 
   $: windowWidth = 0;

@@ -2,9 +2,8 @@
   import SvelteMarkdown from 'svelte-markdown';
   import { marked } from "marked";
   import { onMount } from 'svelte';
-
-  /** @type {import('./$types').PageData} */
-	export let data:object;
+  import intro from '$lib/txt/questions-for-agencies/intro.md?raw';
+  import questions from '$lib/txt/questions-for-agencies/questions.md?raw';
 
   let questionContent = "";
   let toCArray: Array<Array<string>> = [];
@@ -29,7 +28,7 @@
   marked.use({ renderer });
 
   onMount(()=>{
-    questionContent = marked.parse(data.questions);
+    questionContent = marked.parse(questions);
   })
 
   function handleAnchorClick (event) {
@@ -50,7 +49,7 @@
   <div class="mt-8 flex flex-wrap pt-4">
     <div class="w-full md:w-3/5 md:pr-12 xl:pr-16">
       <h2>Questions for Agencies</h2>
-      <SvelteMarkdown source={data.intro}/>
+      <SvelteMarkdown source={intro}/>
     </div>
     <div class="md:w-2/5">
       <div class="h-full my-auto">
