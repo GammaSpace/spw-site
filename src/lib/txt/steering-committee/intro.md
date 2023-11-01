@@ -11,4 +11,4 @@ Each one of us identifies as a survivor and/or person with lived/living experien
 
 All major decisions in the SPW project were made by [consensus](/glossary#consensus). We also prioritized our connection to each other above all else.
 
-In SPW, we believe that change is relational - we can’t seek justice in the world unless we can live it with one another. The community we built on the steering committee is a permanent outcome of the project - our relationships with one another model how to work together across difference. 
+In SPW, we believe that change is relational - we can’t seek justice in the world unless we can live it with one another. The community we built on the steering committee is a permanent outcome of the project. Our relationships with one another try to model the world we want to make.

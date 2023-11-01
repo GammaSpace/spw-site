@@ -1,1 +1,1 @@
-Website design provided by Gamma Space, a cooperative studio of game developers, artists and creative technologists dedicated to exploring community-led flows of individual and collective support.
+Website design provided by Gamma Space, a cooperative studio of game developers, artists, and creative technologists dedicated to exploring community-led flows of individual and collective support.
