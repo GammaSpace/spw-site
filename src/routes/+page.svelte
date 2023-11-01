@@ -11,7 +11,7 @@
   <img class="w-full h-full mx-auto object-cover" src="img/main_header_comp.png" />
 </div>
 <div class="mt-8 flex flex-wrap pt-4">
-  <div class="w-full md:w-3/5 md:pr-12 xl:pr-16">
+  <div class="intro-text w-full md:w-3/5 md:pr-12 xl:pr-16">
     <SvelteMarkdown source={intro}/>
   </div>
   <div class="w-full md:w-2/5 quote">

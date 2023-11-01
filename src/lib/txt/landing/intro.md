@@ -9,6 +9,10 @@ The Supporting Peer Work project documented how [“low barrier” social servic
 - Are forging new and vital paths for community empowerment.
 - Work best when they are trusted, respected, and resourced on their own terms. 
 
+<div class="intro-spacers">
+  <img class="intro-spacer-img" src="img/spacer.png">
+</div>
+
 **But that most agencies:**
 
 - Falsely believe they value community knowledge and lived/living expertise.
