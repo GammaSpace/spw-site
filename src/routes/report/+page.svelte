@@ -8,6 +8,7 @@
   import report_full from '$lib/txt/report/report_full.md?raw';
   import report_summary from '$lib/txt/report/report_summary.md?raw';
   import report_short from '$lib/txt/report/report_short.md?raw';
+  import thePublic from '$lib/txt/report/public.md?raw';
 
   const reportArr = [
     { text: report_full, url: "https://drive.google.com/file/d/1pc2n7zdeR9tJhdE5OsPF0GJYz2kn6rnO/view?usp=drive_link" },
@@ -49,6 +50,9 @@
     </div>
   </div>
 {/each}
+<div class="w-full text-center my-6">
+  <SvelteMarkdown source={thePublic}/>
+</div>
 <div class="w-full md:w-2/5"><img class="mx-auto md:mx-0 md:ml-12 w-[60px] md:w-[90px]" src="img/spacer.png"></div>
 <div class="mt-8 flex flex-wrap pt-4 justify-center">
   <div class="md:w-3/5 quote">

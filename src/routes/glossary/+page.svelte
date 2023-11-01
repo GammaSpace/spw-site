@@ -27,7 +27,6 @@
         const link = $page.url.hash;
         const anchorId = link.replace('#', '');
         const anchor = document.getElementById(anchorId);
-        console.log(anchor);
         window.scrollTo({
           top: anchor.offsetTop + anchorOffset,
           behavior: 'smooth'
@@ -44,7 +43,6 @@
 		const link = event.currentTarget;
 		const anchorId =  new URL(link.href).hash.replace('#', '');
 		const anchor = document.getElementById(anchorId);
-    console.log(anchor);
 		window.scrollTo({
 			top: anchor.offsetTop + anchorOffset,
 			behavior: 'smooth'
@@ -61,7 +59,7 @@
     </div>
     <div class="w-full md:w-2/5">
       <div class="h-full my-auto w-full md:w-[90%]">
-        <img class="max-w-[150px] md:w-[90%] md:max-w-[350px] mx-auto" src="/img/maze_part.png"/>
+        <img class="max-w-[150px] md:w-[90%] md:max-w-[350px] mx-auto" src="/img/maze_part_narrow.png"/>
       </div>
     </div>
   </div>
