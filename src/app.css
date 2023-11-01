@@ -23,11 +23,11 @@ a {
 }
 
 ul {
-  @apply mb-8;
+  @apply ml-8 md:pr-12 mb-8;
 }
 
 ul li {
-  @apply list-disc list-inside mb-2 text-lg;
+  @apply list-disc list-outside mb-2 text-lg;
 }
 
 .quote, .big-quote {
@@ -47,7 +47,7 @@ ul li {
 }
 
 .agency-questions ul {
-  @apply ml-4;
+  @apply ml-8 md:pr-12;
 }
 
 .agency-questions ul li {

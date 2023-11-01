@@ -28,7 +28,7 @@
   </div>
 </div>
 <div class="my-8 flex flex-wrap pt-4">
-  <div class="w-full mx-auto border-4 border-mazeGreen rounded-md px-4 pt-4">
+  <div class="w-full mx-auto border-8 border-mazeGreen rounded-md px-4 pt-4">
     <SvelteMarkdown source={findings}/>
   </div>
 </div>

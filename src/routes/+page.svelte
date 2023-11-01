@@ -30,7 +30,7 @@
 </div>
 <div class="my-8 flex flex-wrap pt-4">
   <h2>Treaty Responsibilities</h2>
-  <div class="w-full border-4 border-mazeGreen rounded-md px-4 pt-4">
+  <div class="w-full border-8 border-mazeGreen rounded-md px-4 pt-4">
     <SvelteMarkdown source={land}/>
   </div>
 </div>
