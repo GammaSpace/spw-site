@@ -96,7 +96,7 @@
     </div>
   </div>
   <div bind:this={root} class="mt-8 flex flex-wrap flex-col-reverse md:flex-row pt-4">  
-    <div class="w-full md:w-3/5 md:pr-12 xl:pr-16">
+    <div class="w-full md:w-3/5 md:pr-12 xl:pr-16 md:mb-24">
       {@html glossaryContent}
     </div>
     <div class="w-full md:w-2/5">
