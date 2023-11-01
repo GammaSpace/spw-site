@@ -59,19 +59,19 @@
     {/each}
   </div>
 </div>
-<div class="my-8 flex flex-wrap pt-4">
+<div class="mt-8 flex flex-wrap pt-4">
   <div class="w-full md:w-4/5 md:pr-12 xl:pr-16">
     <SvelteMarkdown source={treaty}/>
   </div>
 </div>
-<div class="my-8 flex flex-wrap">
-  {#each resources as res}
-    <div class="w-full md:w-1/2 md:pr-12 xl:pr-16 mb-8">
+<div class="mt-4 mb-8 md:mb-12 flex flex-wrap">
+  <div class="grid md:grid-cols-2 gap-y-8 md:gap-12 xl:gap-16">
+    {#each resources as res}
       <div class="resource-box border-2 border-mazeGreen rounded-md">
         <SvelteMarkdown source={res}/>
       </div>
-    </div>
-  {/each}
+    {/each}
+  </div>
 </div>
 <div class="w-full md:w-2/5"><img class="mx-auto md:mx-0 md:ml-12 w-[60px] md:w-[90px]" src="img/spacer.png"></div>
 <div class="mt-8 flex flex-wrap pt-4 justify-center">

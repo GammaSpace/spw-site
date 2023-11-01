@@ -1,4 +1,4 @@
-### Essays and academic articles
+### Essays & academic articles
 
 [Leanne Betasamosake Simpson, “Looking after Gdoo-naaganinaa: Precolonial Nishnabeg Diplomatic and Treaty Relationships,”](https://nandogikendan.com/wp-content/uploads/2018/04/69b9f-23-2-simpson.pdf)
 
