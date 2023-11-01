@@ -66,6 +66,10 @@ ul li {
   @apply text-mazeGreen mb-2;
 }
 
+#questions-toc a.active {
+  @apply text-black;
+}
+
 .main-menu {
   transition: max-height 0.1s linear;
 }

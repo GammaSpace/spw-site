@@ -8,6 +8,8 @@
 
   let glossaryContent:string = "";
   let toCArray: Array<Array<string>> = [];
+  let scrollListenerAdded:boolean = false;
+  $: root = null;
 
   const renderer = {
     strong(text:string) {
@@ -48,6 +50,36 @@
 			behavior: 'smooth'
 		})
 	}
+
+  let allAnchors: NodeListOf<HTMLHeadingElement>;
+  let allLinks: NodeListOf<HTMLLinkElement>;
+
+  $: if (root != null && !scrollListenerAdded) {
+    scrollListenerAdded = true;
+    allAnchors = root.querySelectorAll('b');
+    allLinks = root.querySelectorAll('#questions-toc > p > a');
+    console.log(allAnchors);
+    console.log(allLinks);
+
+    window.addEventListener('scroll', (event) => {
+      if (typeof(allAnchors) != 'undefined' && allAnchors != null && typeof(allLinks) != 'undefined' && allLinks != null) {
+        let scrollTop = window.scrollY;
+        
+        // highlight the last scrolled-to: set everything inactive first
+        allLinks.forEach((allLinks, index) => {
+          allLinks.classList.remove("active");
+        });
+        
+        // then iterate backwards, on the first match highlight it and break
+        for (var i = allAnchors.length-1; i >= 0; i--) {
+          if (scrollTop > allAnchors[i].offsetTop - 10) {
+            allLinks[i].classList.add('active');
+            break;
+          }
+        }
+      }
+    });
+  } 
 </script> 
 
 <svelte:window bind:innerWidth={windowWidth}/>
@@ -63,11 +95,11 @@
       </div>
     </div>
   </div>
-  <div class="mt-8 flex flex-wrap flex-col-reverse md:flex-row pt-4">  
+  <div bind:this={root} class="mt-8 flex flex-wrap flex-col-reverse md:flex-row pt-4">  
     <div class="w-full md:w-3/5 md:pr-12 xl:pr-16">
       {@html glossaryContent}
     </div>
-    <div class="glossary-toc w-full md:w-2/5">
+    <div class="w-full md:w-2/5">
       <div class="md:sticky md:top-[80px]">
         <div id="questions-toc">
           {#each toCArray as topic} 

@@ -7,6 +7,8 @@
 
   let questionContent = "";
   let toCArray: Array<Array<string>> = [];
+  let scrollListenerAdded:boolean = false;
+  $: root = null;
   
   const renderer = {
     heading(text:string, level:number) {
@@ -27,9 +29,37 @@
 
   marked.use({ renderer });
 
+  let allAnchors: NodeListOf<HTMLHeadingElement>;
+  let allLinks: NodeListOf<HTMLLinkElement>;
+
   onMount(()=>{
     questionContent = marked.parse(questions);
   })
+
+  $: if (root != null && !scrollListenerAdded) {
+    scrollListenerAdded = true;
+    allAnchors = root.querySelectorAll('h3');
+    allLinks = root.querySelectorAll('#questions-toc > p > a');
+
+    window.addEventListener('scroll', (event) => {
+      if (typeof(allAnchors) != 'undefined' && allAnchors != null && typeof(allLinks) != 'undefined' && allLinks != null) {
+        let scrollTop = window.scrollY;
+        
+        // highlight the last scrolled-to: set everything inactive first
+        allLinks.forEach((allLinks, index) => {
+          allLinks.classList.remove("active");
+        });
+        
+        // then iterate backwards, on the first match highlight it and break
+        for (var i = allAnchors.length-1; i >= 0; i--) {
+          if (scrollTop > allAnchors[i].offsetTop - 10) {
+            allLinks[i].classList.add('active');
+            break;
+          }
+        }
+      }
+    });
+  } 
 
   function handleAnchorClick (event) {
 		event.preventDefault()
@@ -56,7 +86,7 @@
       </div>
     </div>
   </div>
-  <div class="my-8 flex flex-wrap flex-col-reverse md:flex-row pt-4">
+  <div bind:this={root} class="my-8 flex flex-wrap flex-col-reverse md:flex-row pt-4">
     <div class="agency-questions w-full md:w-3/5 md:pr-12 xl:pr-16">
       {@html questionContent}
     </div>
