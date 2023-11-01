@@ -9,6 +9,7 @@
   let glossaryContent:string = "";
   let toCArray: Array<Array<string>> = [];
   let scrollListenerAdded:boolean = false;
+  let canUpdateScroll = true;
   $: root = null;
 
   const renderer = {
@@ -62,22 +63,28 @@
     console.log(allLinks);
 
     window.addEventListener('scroll', (event) => {
-      if (typeof(allAnchors) != 'undefined' && allAnchors != null && typeof(allLinks) != 'undefined' && allLinks != null) {
-        let scrollTop = window.scrollY;
-        
-        // highlight the last scrolled-to: set everything inactive first
-        allLinks.forEach((allLinks, index) => {
-          allLinks.classList.remove("active");
-        });
-        
-        // then iterate backwards, on the first match highlight it and break
-        for (var i = allAnchors.length-1; i >= 0; i--) {
-          if (scrollTop > allAnchors[i].offsetTop - 10) {
-            allLinks[i].classList.add('active');
-            break;
+      if ( canUpdateScroll ) {
+        canUpdateScroll = false;
+        if (typeof(allAnchors) != 'undefined' && allAnchors != null && typeof(allLinks) != 'undefined' && allLinks != null) {
+          let scrollTop = window.scrollY;
+          
+          // highlight the last scrolled-to: set everything inactive first
+          allLinks.forEach((allLinks, index) => {
+            allLinks.classList.remove("active");
+          });
+          
+          // then iterate backwards, on the first match highlight it and break
+          for (var i = allAnchors.length-1; i >= 0; i--) {
+            if (scrollTop > allAnchors[i].offsetTop - 10) {
+              allLinks[i].classList.add('active');
+              break;
+            }
           }
         }
-      }
+        setTimeout(()=>{
+          canUpdateScroll = true;
+        },10)     
+      } 
     });
   } 
 </script> 
