@@ -12,6 +12,12 @@
   import maria from '$lib/txt/steering-committee/bios/maria.md?raw';
   import michael from '$lib/txt/steering-committee/bios/michael.md?raw';
   import suwaida from '$lib/txt/steering-committee/bios/suwaida.md?raw';
+  import videos from '$lib/txt/steering-committee/resources/videos.md?raw';
+  import podcasts from '$lib/txt/steering-committee/resources/podcasts.md?raw';
+  import websites from '$lib/txt/steering-committee/resources/websites.md?raw';
+  import books from '$lib/txt/steering-committee/resources/books.md?raw';
+  import essays from '$lib/txt/steering-committee/resources/essays.md?raw';
+  import news from '$lib/txt/steering-committee/resources/news.md?raw';
 
   let bios = [
     griffin,     
@@ -23,6 +29,15 @@
     maria, 
     michael,
     julia,
+  ]
+
+  let resources = [
+    videos,
+    podcasts,
+    websites,
+    books,
+    essays,
+    news
   ]
 </script> 
 
@@ -48,6 +63,15 @@
   <div class="w-full md:w-4/5 md:pr-12 xl:pr-16">
     <SvelteMarkdown source={treaty}/>
   </div>
+</div>
+<div class="my-8 flex flex-wrap">
+  {#each resources as res}
+    <div class="w-full md:w-1/2 md:pr-12 xl:pr-16 mb-8">
+      <div class="resource-box border-2 border-mazeGreen rounded-md">
+        <SvelteMarkdown source={res}/>
+      </div>
+    </div>
+  {/each}
 </div>
 <div class="w-full md:w-2/5"><img class="mx-auto md:mx-0 md:ml-12 w-[60px] md:w-[90px]" src="img/spacer.png"></div>
 <div class="mt-8 flex flex-wrap pt-4 justify-center">
