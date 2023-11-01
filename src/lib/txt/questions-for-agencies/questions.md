@@ -1,4 +1,4 @@
-### SYSTEMS OF POWER AND RESISTANCE MOVEMENTS
+### Systems of Power and Resistance Movements
 
 - What values guide your work? Where do these values come from? Why are they
 important? How do you practice them with the communities you serve? With your
@@ -12,9 +12,7 @@ support your communities in meeting their own needs, in their own way?
 - How do you identify power at your agency? Do you notice white supremacy and
 racism, colonialism, classism, cisheteropatriarchy, and ableism? Do you interrupt
 them? How? What material resources have you committed to this process? For
-example, are you willing to re-train or, if necessary, fire supervisors or non-peer staff
-who hold damaging beliefs or behave in oppressive ways? Are you willing to abandon
-practices that are harmful to service users and/or peer staff?
+example, are you willing to re-train or, if necessary, fire supervisors or non-peer staff who hold damaging beliefs or behave in oppressive ways? Are you willing to abandon practices that are harmful to service users and/or peer staff?
 
 - What are your connections with social movements arising from and led by the
 communities you serve? Do you show interest and/or support for the individuals
@@ -22,7 +20,7 @@ involved and/or for the movements themselves? If yes, how do you share resources
 with these social movements? Do these movements inform the values of your
 organization? Your daily practices? How?
 
-### DEFINITIONS OF PEER WORK
+### Definitions of Peer Work
 
 - How does your agency define peer work? Where does your definition come from?
 Is it written by peer workers? Or does it come from somewhere else?
@@ -35,13 +33,11 @@ them? How can you address them?
 - What is the responsibility of an agency to ensure that non-peers are educated about
 peer work? How can you make this education relevant and meaningful?
 
-### GOVERNANCE
+### Governance
 
-- What is the role of the communities you serve in making decisions about the direction
-of your organization? Are they central? If so, how? If not, why not?
+- What is the role of the communities you serve in making decisions about the direction of your organization? Are they central? If so, how? If not, why not?
 
-- How is your agency governed? Do you rely on a hierarchical model? If so, why? Is this
-the only way? How can you integrate more lateral decision-making? Collective models?
+- How is your agency governed? Do you rely on a hierarchical model? If so, why? Is this the only way? How can you integrate more lateral decision-making? Collective models?
 
 - Who holds supervisory and/or managerial roles at your organization? How did they
 get these roles? Is your organization primarily white? Cisgender? Straight?
@@ -55,14 +51,11 @@ What percentage of the Board do they comprise? Why?
 
 - How is your agency evaluated? Whose work is assessed? Are there annual evaluations
 of the ED? Board members? Supervisors? Who conducts these evaluations? Are
-there exit interviews for individuals who leave the organization? If so, who runs these
-interviews? What do you do with the results?
+there exit interviews for individuals who leave the organization? If so, who runs these interviews? What do you do with the results?
 
-### FUNDING
+### Funding
 
-- What kind of funding do you receive or seek for peer work? What are the restrictions?
-Can you work around, or push back against them? How? If you are being forced to set
-up exploitative labor conditions, is the funding worth it? Why?
+- What kind of funding do you receive or seek for peer work? What are the restrictions? Can you work around, or push back against them? How? If you are being forced to set up exploitative labor conditions, is the funding worth it? Why?
 
 - Who makes decisions about how funding is sought? About how funding is used?
 About reporting back to funders? Who can support you in making these decisions
@@ -72,10 +65,9 @@ strategically to support the practices of peers?
 How are you diversifying your funding streams? If you have private donors, how can
 you be sure they are not unduly influencing your work?
 
-### JOB POSTINGS
+### Job Postings
 
-- What are you looking for when you hire a peer worker? What type of skills, values and
-experiences are you seeking? How do you communicate this in you job posting?
+- What are you looking for when you hire a peer worker? What type of skills, values and experiences are you seeking? How do you communicate this in you job posting?
 
 - How do you post for your job? What is included in the posting? Is it accurate to the
 role the person will take on?
@@ -85,12 +77,9 @@ social media platforms or elsewhere on the internet? Do you ask for criminal rec
 checks? Why? What information are you looking for? What are other ways you can
 assess someone’s suitability for a role?
 
-### INTERVIEWS
+### Interviews
 
-- What do you ask at a job interview? Do you prioritize peoples’ skills and abilities? Is
-there a focus on “boundaries” and “self care”? What are you trying to discover when
-you ask these questions? Can you determine this in another way? Is this appropriate
-information for you to ask for or have?
+- What do you ask at a job interview? Do you prioritize peoples’ skills and abilities? Is there a focus on “boundaries” and “self care”? What are you trying to discover when you ask these questions? Can you determine this in another way? Is this appropriate information for you to ask for or have?
 
 - How do you judge potential hires? Are you relying on how well they fit with existing
 agency culture and practice? If so, who does this serve? Do you seek out “gossip”
@@ -100,11 +89,10 @@ violence and community accountability? Who can assist you in this?
 - Do you ask potential peer employees what they need in order to be successful? If so,
 do you provide it to them once they are hired? How?
 
-### COMPENSATION AND BENEFITS
+### Compensation and Benefits
 
 - How much are peers paid? Are they paid less than non-peer staff? Are they paid
-differently than non-peer staff (e.g., cash vs. direct deposit)? If so, why? Do peers get
-a say in determining how they get paid, as well as how much?
+differently than non-peer staff (e.g., cash vs. direct deposit)? If so, why? Do peers get a say in determining how they get paid, as well as how much?
 
 - How do you decide what tasks peers should be paid for? When are peers who are
 working in their own communities and/or out of their homes (e.g., at satellite sites)
@@ -114,7 +102,7 @@ working in their own communities and/or out of their homes (e.g., at satellite s
 benefits package? If not, how do you ensure that they get the care they need from
 practitioners outside the organization?
 
-### JOB SECURITY AND ADVANCEMENT
+### Job Security and Advancement
 
 - Do you see peer work as a potentially permanent and secure position? Or do you only
 hire peers for short-term contracts? Who makes these decisions? Why?
@@ -126,7 +114,7 @@ workers? Are they relevant to peers’ needs? How do you know?
 security? What is the pathway? Who can access it? How do you ensure that there is
 equity and transparency in this process?
 
-### WORKPLACE REPRESENTATION
+### Workplace Representation
 
 - How do peer workers give criticism and feedback to the agency and/or assert
 their collective rights? Are they unionized? If so, does the union actually understand
@@ -136,7 +124,7 @@ representation are possible?
 - Are peer workers at your agency connected to peers at other agencies? Do you
 recognize and respect cross-agency issues?
 
-### PHYSICAL ENVIRONMENTS
+### Physical Environments
 
 - Does your agency occupy Indigenous land? If so, how are you working to return that
 land? How are you working to become accountable to your treaty responsibilities?
@@ -151,10 +139,9 @@ they have keys? Fobs? IDs? Do they have email addresses? If not, why not?
 
 - Who “belongs” at your agency? Are some people scrutinized or seen as “out of place”
 in particular rooms and/or on certain floors? Do you work in an agency where there
-are clear hierarchies in the floorplan (e.g., managers on higher floors, peers on lower
-floors)? Why?
+are clear hierarchies in the floorplan (e.g., managers on higher floors, peers on lower floors)? Why?
 
-### SATELLITE AND OUTREACH WORK
+### Satellite and Outreach Work
 
 - How do you support satellite workers? How do you respond when issues of safety
 emerge for them? How do you compensate them? What benefits do you offer? What
@@ -163,7 +150,7 @@ do you do if they have needs “off the clock”?
 - How do you support outreach workers? Do they have warm jackets and good shoes?
 Cell phones with adequate data? Rolling bags? Do you have a vehicle they can use?
 
-### SUPERVISION AND OUTREACH WORK
+### Supervision and Outreach Work
 
 - Do you have a supervision philosophy? If so, where does it come from? Who supports
 you in ensuring you are aligned with it in your work? If you do not have a philosophy,

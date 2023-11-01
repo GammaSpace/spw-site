@@ -22,23 +22,22 @@
 
   onMount(()=>{
     glossaryContent = marked.parse(glossary);
+    if ( $page.url.hash != "" ) {
+      setTimeout(()=>{
+        const link = $page.url.hash;
+        const anchorId = link.replace('#', '');
+        const anchor = document.getElementById(anchorId);
+        console.log(anchor);
+        window.scrollTo({
+          top: anchor.offsetTop + anchorOffset,
+          behavior: 'smooth'
+        })
+      }, 200);
+    }
   })
 
   $: windowWidth = 0;
-  $: anchorOffset = windowWidth < 700 ? 20 : 0;
-
-  onMount(()=> {
-    setTimeout(()=>{
-      const link = $page.url.hash;
-      const anchorId = link.replace('#', '');
-      const anchor = document.getElementById(anchorId);
-      console.log(anchor);
-      window.scrollTo({
-        top: anchor.offsetTop + anchorOffset,
-        behavior: 'smooth'
-      })
-    },200)
-  })
+  $: anchorOffset = windowWidth < 700 ? -20 : 0;
 
   function handleAnchorClick (event) {
 		event.preventDefault()
@@ -60,9 +59,9 @@
     <div class="w-full md:w-3/5 md:pr-12 xl:pr-16">
       <SvelteMarkdown source={intro}/>
     </div>
-    <div class="md:w-2/5">
-      <div class="h-full my-auto">
-        <img class="w-[90%] max-w-[350px] mx-auto" src="/img/maze_part.png"/>
+    <div class="w-full md:w-2/5">
+      <div class="h-full my-auto w-full md:w-[90%]">
+        <img class="max-w-[150px] md:w-[90%] md:max-w-[350px] mx-auto" src="/img/maze_part.png"/>
       </div>
     </div>
   </div>

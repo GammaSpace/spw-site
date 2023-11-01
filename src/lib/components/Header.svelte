@@ -32,12 +32,16 @@
     </div>
   </div>
   <div class="md:hidden relative">
-    <div class="main-menu bg-mazeGreen px-12 pt-[50px] text-center overflow-hidden {navOpen ? `max-h-[400px]` : `max-h-[50px]`}">
-      {#each menu as item}
-        <div class="py-4"><a class="text-white font-bold underline text-lg" on:click={()=>{navOpen = !navOpen;}} href="{item[1]}">{item[0]}</a></div>
-      {/each}
+    <div class="main-menu bg-mazeGreen pt-[50px] text-center overflow-hidden {navOpen ? `max-h-[400px]` : `max-h-[50px]`}">
+      <div class="">
+        {#each menu as item}
+          <a class="no-underline" on:click={()=>{navOpen = !navOpen;}} href="{item[1]}">
+            <p class="my-0 text-white font-bold underline text-lg hover:no-underline px-12 py-4 ">{item[0]}</p>
+          </a>
+        {/each}
+      </div>
       <div class="absolute top-0 right-8 ">
-        <p><button class="text-white -mt-1 -mr-5 w-[45px] h-auto" on:click={()=>{navOpen = !navOpen;}}>-</button></p>
+        <p><button class="text-white -mt-1 -mr-5 w-[45px] h-auto" on:click={()=>{navOpen = !navOpen;}}>Menu</button></p>
       </div>
     </div>
   </div>

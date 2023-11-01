@@ -20,9 +20,9 @@
   <div class="w-full md:w-3/5 md:pr-12 xl:pr-16">
     <SvelteMarkdown source={intro}/>
   </div>
-  <div class="md:w-2/5">
-    <div class="h-full my-auto">
-      <img class="w-[90%] max-w-[350px] mx-auto" src="/img/maze_part.png"/>
+  <div class="w-full md:w-2/5">
+    <div class="h-full my-auto w-full md:w-[90%]">
+      <img class="max-w-[150px] md:w-[90%] md:max-w-[350px] mx-auto" src="/img/maze_part.png"/>
     </div>
   </div>
 </div>

@@ -46,10 +46,26 @@ ul li {
   text-shadow: 2px 2px 2px #666;
 }
 
+.agency-questions ul {
+  @apply ml-4;
+}
+
 .agency-questions ul li {
-  @apply list-none list-outside mb-2 text-lg;
+  @apply list-disc list-outside;
+}
+
+.agency-questions ul li p {
+  @apply ml-2 text-lg mb-8;
+}
+
+#questions-toc {
+  @apply mb-8;
 }
 
 #questions-toc p {
   @apply text-mazeGreen mb-2;
+}
+
+.main-menu {
+  transition: max-height 0.1s linear;
 }
