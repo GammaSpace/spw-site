@@ -14,6 +14,10 @@ h3 {
   @apply text-[1.4rem] leading-8 mb-8 font-bold;
 }
 
+h4 {
+  @apply text-lg uppercase font-bold mb-4;
+}
+
 p {
   @apply mb-8 text-lg;
 }

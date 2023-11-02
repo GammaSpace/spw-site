@@ -8,7 +8,7 @@
 
 [Darren Scott Thomas, “Applying One Dish, One Spoon as an Indigenous Research Methodology,”](https://journals.sagepub.com/doi/full/10.1177/11771801221087864#:~:text=I%20called%20this%20new%20adapted,peacefully%20share%20lands%20and%20resources)
 
-[Leanne Betasamosake Simpson and Robyn Maynard, “A truthful interaction”](https://maisonneuve.org/article/2020/11/17/a-truthful-interaction/)
+[Leanne Betasamosake Simpson and Robyn Maynard, “A Truthful Interaction”](https://maisonneuve.org/article/2020/11/17/a-truthful-interaction/)
 
 [Alexis Shotwell, “Claiming Bad Kin”](https://alexisshotwell.com/2018/03/02/claiming-bad-kin/)
 
