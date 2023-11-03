@@ -3,8 +3,18 @@
   import SvelteMarkdown from 'svelte-markdown';
   import intro from '$lib/txt/landing/intro.md?raw';
   import quote from '$lib/txt/landing/quote.md?raw';
-  import funders from '$lib/txt/landing/funders.md?raw';
+  import funders from '$lib/txt/landing/collab/funders.md?raw';
+  import supporters from '$lib/txt/landing/collab/supporters.md?raw';
+  import coinvestigators from '$lib/txt/landing/collab/coinvestigators.md?raw';
+  import collab from '$lib/txt/landing/collab/collab.md?raw';
   import land from '$lib/txt/landing/land.md?raw';
+
+  const credits = [
+    coinvestigators,
+    collab,
+    funders,
+    supporters
+  ]
 </script> 
 
 <div class="-ml-8 -mt-12 w-[calc(100%+64px)] md:-ml-12 md:-mt-24 md:w-[calc(100%+96px)] xl:-mt-32">
@@ -35,9 +45,15 @@
   </div>
 </div>
 <div class="mt-8 flex flex-wrap pt-4">
-  <div class="w-full">
+  <div class="w-full mb-4">
     <h2>Funders & Collaborators</h2>
-    <SvelteMarkdown source={funders}/>
+    <div class="flex flex-wrap md:gap-12">
+      {#each credits as ppl}
+        <div class="w-full md:w-[calc(50%-24px)]">
+          <SvelteMarkdown source={ppl}/>
+        </div>
+      {/each}
+    </div>
   </div>
   <div class="w-full flex flex-wrap justify-center items-center">
     <div class="logo">

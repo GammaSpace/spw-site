@@ -42,9 +42,11 @@
           </a>
         {/each}
       </div>
-      <div class="absolute top-0 right-8 ">
-        <p><button class="text-white -mt-1 -mr-5 w-[45px] h-auto" on:click={()=>{navOpen = !navOpen;}}>Menu</button></p>
-      </div>
+      <button class="absolute top-0 h-[50px] left-0 w-full" on:click={()=>{navOpen = !navOpen;}}>
+        <div class="absolute right-2 text-white top-[6px]">
+          <img class="w-[36px] h-auto" src="img/hampointer.png">
+        </div>
+      </button>
     </div>
   </div>
 </nav>
