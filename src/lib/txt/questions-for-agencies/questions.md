@@ -46,7 +46,7 @@
 
 ### Interviews
 
-- **What do you ask at a job interview? Do you prioritize peoples’ skills and abilities?** Is there a focus on “boundaries” and “self care”? What are you trying to discover when you ask these questions? Can you determine this in another way? Is this appropriate information for you to ask for or have?
+- **What do you ask at a job interview?** Do you prioritize peoples’ skills and abilities? Is there a focus on “boundaries” and “self care”? What are you trying to discover when you ask these questions? Can you determine this in another way? Is this appropriate information for you to ask for or have?
 
 - **How do you judge potential hires?** Are you relying on how well they fit with existing agency culture and practice? If so, who does this serve? Do you seek out “gossip” or ask about “reputation”? From whom? How do you differentiate between lateral violence and community accountability? Who can assist you in this?
 
