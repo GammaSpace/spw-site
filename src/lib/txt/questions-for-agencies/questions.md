@@ -38,17 +38,17 @@
 
 ### Job Postings
 
-- **What are you looking for when you hire a peer worker? What type of skills, values, and experiences are you seeking?** How do you communicate this in you job posting?
+- **What are you looking for when you hire a peer worker?** What type of skills, values, and experiences are you seeking? How do you communicate this in you job posting?
 
 - **How do you post for your job?** What is included in the posting? Is it accurate to the role the person will take on?
 
-- **What do you require from your potential employees? Do you research candidates on social media platforms or elsewhere on the internet?** Do you ask for criminal record checks? Why? What information are you looking for? What are other ways you can assess someone’s suitability for a role?
+- **What do you require from your potential employees?** Do you research candidates on social media platforms or elsewhere on the internet? Do you ask for criminal record checks? Why? What information are you looking for? What are other ways you can assess someone’s suitability for a role?
 
 ### Interviews
 
-- **What do you ask at a job interview? Do you prioritize peoples’ skills and abilities? Is there a focus on “boundaries” and “self care”?** What are you trying to discover when you ask these questions? Can you determine this in another way? Is this appropriate information for you to ask for or have?
+- **What do you ask at a job interview? Do you prioritize peoples’ skills and abilities?** Is there a focus on “boundaries” and “self care”? What are you trying to discover when you ask these questions? Can you determine this in another way? Is this appropriate information for you to ask for or have?
 
-- **How do you judge potential hires? Are you relying on how well they fit with existing agency culture and practice? If so, who does this serve?** Do you seek out “gossip” or ask about “reputation”? From whom? How do you differentiate between lateral violence and community accountability? Who can assist you in this?
+- **How do you judge potential hires?** Are you relying on how well they fit with existing agency culture and practice? If so, who does this serve? Do you seek out “gossip” or ask about “reputation”? From whom? How do you differentiate between lateral violence and community accountability? Who can assist you in this?
 
 - **Do you ask potential peer employees what they need in order to be successful?** If so, do you provide it to them once they are hired? How?
 
@@ -76,19 +76,19 @@
 
 ### Physical Environments
 
-- **Does your agency occupy Indigenous land? If so, how are you working to return that land?** How are you working to become accountable to your treaty responsibilities? Who gives you guidance on this?
+- **Does your agency occupy Indigenous land?** If so, how are you working to return that land? How are you working to become accountable to your treaty responsibilities? Who gives you guidance on this?
 
 - **How accessible and safe is your built environment?** Do you have consistent COVID safety practices? How do you ensure people are safe from physical violence? Are some workers subject to greater risks of illness and/or injury than others? Why?
 
 - **Can peer workers access all the same spaces at your agency that non-peers can?** Do they have keys? Fobs? IDs? Do they have email addresses? If not, why not?
 
-- **Who “belongs” at your agency? Are some people scrutinized or seen as “out of place” in particular rooms and/or on certain floors?** Do you work in an agency where there are clear hierarchies in the floorplan (e.g., managers on higher floors, peers on lower floors)? Why?
+- **Who “belongs” at your agency?** Are some people scrutinized or seen as “out of place” in particular rooms and/or on certain floors? Do you work in an agency where there are clear hierarchies in the floorplan (e.g., managers on higher floors, peers on lower floors)? Why?
 
 ### Satellite and Outreach Work
 
-- **How do you support satellite workers? How do you respond when issues of safety emerge for them? How do you compensate them?** What benefits do you offer? What do you do if they have needs “off the clock”?
+- **How do you support satellite workers?** How do you respond when issues of safety emerge for them? How do you compensate them? What benefits do you offer? What do you do if they have needs “off the clock”?
 
-- **How do you support outreach workers? Do they have warm jackets and good shoes? Cell phones with adequate data? Rolling bags?** Do you have a vehicle they can use?
+- **How do you support outreach workers?** Do they have warm jackets and good shoes? Cell phones with adequate data? Rolling bags? Do you have a vehicle they can use?
 
 ### Supervision and Outreach Work
 
@@ -98,6 +98,6 @@
 
 - **Do you subject peers to greater scrutiny than non-peers?** Do you subject some peers to greater scrutiny than others? Who? How? Why?
 
-- **What expectations do you have of peers? How clearly are they communicated?** How do they relate to your supervision philosophy and your definition of peer work? How do you deal with an issue that emerges with a peer? What kinds of accountability practices do you have? Why?
+- **What expectations do you have of peers?** How clearly are they communicated? How do they relate to your supervision philosophy and your definition of peer work? How do you deal with an issue that emerges with a peer? What kinds of accountability practices do you have? Why?
 
 - **How does your agency define “professionalism”?** Why is it defined this way? Does your definition focus on how people dress and speak? On punctuality and document-keeping? Or is it about ethical practices? Who gets to decide which of your expectations are meaningful and which present barriers to peers?
