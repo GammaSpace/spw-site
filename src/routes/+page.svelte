@@ -4,16 +4,12 @@
   import intro from '$lib/txt/landing/intro.md?raw';
   import quote from '$lib/txt/landing/quote.md?raw';
   import funders from '$lib/txt/landing/collab/funders.md?raw';
-  import supporters from '$lib/txt/landing/collab/supporters.md?raw';
-  import coinvestigators from '$lib/txt/landing/collab/coinvestigators.md?raw';
   import collab from '$lib/txt/landing/collab/collab.md?raw';
   import land from '$lib/txt/landing/land.md?raw';
 
   const credits = [
-    coinvestigators,
     collab,
-    funders,
-    supporters
+    funders
   ]
 </script> 
 
@@ -47,9 +43,9 @@
 <div class="mt-8 flex flex-wrap pt-4">
   <div class="w-full mb-4">
     <h2>Funders & Collaborators</h2>
-    <div class="flex flex-wrap md:gap-12">
+    <div class="flex flex-wrap md:gap-10">
       {#each credits as ppl}
-        <div class="w-full md:w-[calc(50%-24px)]">
+        <div class="w-full md:w-[calc(50%-20px)]">
           <SvelteMarkdown source={ppl}/>
         </div>
       {/each}
