@@ -28,7 +28,7 @@
       <div class="transition -z-10 absolute top-0 left-0 w-full h-full bg-mazeGreen {yPos > 60 ? "opacity-100" : "opacity-80"}"></div>
         {#each menu as item, index}
           <span class="md:px-2 lg:px-3 font-bold text-white">
-            <a class="hover:no-underline" href="{item[1]}">{item[0]}</a>
+            <a class="hover:no-underline {item[1] == path ? "no-underline" : ""}" href="{item[1]}">{item[0]}</a>
           </span>
         {/each}
     </div>
