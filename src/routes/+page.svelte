@@ -64,8 +64,11 @@
     <div class="logo">
       <img class="w-full" src="/img/logos/logo_cihr.jpeg"/>
     </div>
-    <div class="pr-8 w-full mb-4 md:w-3/4">
+    <div class="pr-8 w-full mb-4 md:w-1/2">
       <img class="w-full" src="/img/logos/logo_sshrc.jpg"/>
+    </div>
+    <div class="logo">
+      <img class="w-full" src="/img/logos/logo_ccbr.jpg"/>
     </div>
     <div class="logo">
       <img class="w-full" src="/img/logos/logo_nserc.jpg"/>
